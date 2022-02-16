@@ -1,0 +1,11 @@
+{
+  "literal": {
+    "other": "literal string"
+  },
+  "hello": {
+    "other": "Hello, {{.v1}}"
+  },
+  "not_found_dbtable": {
+    "other": "ERR_CODE {{.v1}}: NOT FOUND TABLE '{{.v3}}' IN DB '{{.v2}}'"
+  }
+}

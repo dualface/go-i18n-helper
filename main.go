@@ -1,8 +1,3 @@
-# Simple wrapper functions based go-i18n package
-
-How to usage:
-
-```
 package main
 
 import (
@@ -39,21 +34,3 @@ func main() {
 	println()
 	println()
 }
-```
-
-Output:
-
-```
-你好，World
-错误代码 [3099] 在数据库 'admin_db' 中没有找到表格 'users'
-
-
-Hello, World
-ERR_CODE 3099: NOT FOUND TABLE 'users' IN DB 'admin_db'
-
-
-#I18N MISS# hello []interface {}{"World"}
-#I18N MISS# not_found_dbtable []interface {}{3099, "admin_db", "users"}
-```
-
-\- EOF \-
